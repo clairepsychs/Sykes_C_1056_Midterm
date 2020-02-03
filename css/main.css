@@ -20,6 +20,7 @@ p {
 	text-align: center;
 }
 
+
 #siteContainer {
 	align-items: center;
 	background-color: #bababa;
@@ -27,4 +28,16 @@ p {
 	width: 970px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+#nav {
+	align-items: center;
+	
+}
+
+#logo {
+	background-color: #fff;
+	align-self: left;
+	width: 20px;
+	height: 20px;
 }
