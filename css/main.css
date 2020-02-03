@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@font-face {
+font-family: 'Playfair Display',
+'Abril Fatface', cursive, 
+'Oswald', sans-serif,
+'Anton', serif;
+}
+
+body {
+
+  font-size: 24px;
+  background: #ffffff;
+  line-height: 45px;
+  padding: 50px;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+#siteContainer {
+	align-items: center;
+	background-color: #bababa;
+	margin: 0 auto;
+	width: 970px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
