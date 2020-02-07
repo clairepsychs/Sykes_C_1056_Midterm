@@ -9,10 +9,15 @@ font-family: 'Playfair Display',
 
 body {
 
+	font-family: Oswald;
   font-size: 24px;
   background: #ffffff;
   line-height: 45px;
   padding: 50px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
 }
 
 p {
@@ -21,23 +26,104 @@ p {
 }
 
 
+.hidden {
+	display: none;
+}
+
 #siteContainer {
-	align-items: center;
-	background-color: #bababa;
+
 	margin: 0 auto;
 	width: 970px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-#nav {
-	align-items: center;
+#mainHeader {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 2px #000;
+
+}
+
+#mainLogo {
+
+	margin-left: auto;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+}
+
+.mainNav {
+	
+	margin-left: 200px;
+	height: 50px;
+	width: 650px;
+	background-color: black;
+
+}
+
+#heroContainer {
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: solid 2px #000;
+	padding-bottom: 20px;
+
+}
+
+#heroImg {
+	
+	height: 800px;
+	width: 970px;
+	background-color: black;
 	
 }
 
-#logo {
-	background-color: #fff;
-	align-self: left;
-	width: 20px;
-	height: 20px;
+#BeerFlavs {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 350px;
+	width: 970px;
+	padding-bottom: 20px;
+	border-bottom: solid 2px #000;
+	
 }
+
+.beers {
+	
+	height: 350px;
+	width: 280px;
+	background-color: black;
+	margin-left: 10px;	
+	margin-bottom: 20px;
+
+}
+
+
+.MainFooter {
+		
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	
+}
+
+.footerCopyRight {
+
+	margin-left: 100px;
+	height: 50px;
+	width: 100px;
+	background-color: black;
+
+}
+
+
+	
