@@ -87,6 +87,18 @@ p {
 	color: #e0c514;
 }
 
+.nav li {
+	
+	display: inline;
+}
+
+.nav a { 
+
+	display: inline-block;
+	padding: 20px;
+ }
+
+
 #search {
 	margin-left: auto;
 }
