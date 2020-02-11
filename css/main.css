@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
-@font-face {
+@font-face 
+{
 font-family: 'Playfair Display',
 'Abril Fatface', cursive, 
 'Oswald', sans-serif,
 'Anton', serif;
 }
 
-body {
+body 
+{
 
 	font-family: Oswald;
   font-size: 24px;
@@ -16,22 +18,32 @@ body {
   padding: 50px;
 }
 
-a:link, a:visited {
+a:link, a:visited 
+{
 	text-decoration: none;
 	color: black;
 }
 
-p {
+p 
+{
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 }
 
+h2 {
 
-.hidden {
+
+}
+
+.hidden 
+{
 	display: none;
 }
 
-#siteContainer {
+#siteContainer 
+{
 
 	margin: 0 auto;
 	width: 970px;
@@ -39,7 +51,8 @@ p {
 	padding-right: 20px;
 }
 
-#mainHeader {
+#mainHeader 
+{
 
 	display: flex;
 	flex-direction: row;
@@ -50,7 +63,8 @@ p {
 
 }
 
-#mainLogo {
+#mainLogo 
+{
 
 	margin-left: auto;
 	height: 50px;
@@ -58,7 +72,8 @@ p {
 	background-color: black;
 }
 
-.mainNav {
+.mainNav 
+{
 	
 	display: flex;
 	flex-direction: row;
@@ -87,27 +102,32 @@ p {
 	color: #e0c514;
 }
 
-.nav li {
+.nav li 
+{
 	
 	display: inline;
 }
 
-.nav a { 
+.nav a 
+{ 
 
 	display: inline-block;
 	padding: 20px;
  }
 
 
-#search {
+#search 
+{
 	margin-left: auto;
 }
 
-#search form {
+#search form 
+{
 	margin-bottom: 22px;
 }
 
-#search input {
+#search input 
+{
 	background: url('../images/search_white.png') no-repeat 10px 6px #fcfcfc;
 	border: 1px solid #d1d1d1;
 	color: #666;
@@ -118,7 +138,8 @@ p {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.15) inset;
 }
 
-#heroContainer {
+#heroContainer 
+{
 	
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -127,7 +148,8 @@ p {
 
 }
 
-#heroImg {
+#heroImg 
+{
 	
 	text-align: center;
 	width: 970px;
@@ -135,7 +157,8 @@ p {
 	
 }
 
-#BeerFlavs {
+#BeerFlavs 
+{
 	
 	display: flex;
 	flex-direction: row;
@@ -148,7 +171,8 @@ p {
 	
 }
 
-.beers img:hover {
+.beers img:hover 
+{
 	
 	opacity: 1;
 	border: 1px solid #ccc;
@@ -163,7 +187,8 @@ p {
 }
 
 
-.MainFooter {
+.MainFooter 
+{
 		
 	display: flex;
 	flex-direction: row;
@@ -174,7 +199,8 @@ p {
 	
 }
 
-.footerCopyRight {
+.footerCopyRight 
+{
 
 	margin-left: 100px;
 	height: 50px;
@@ -187,7 +213,8 @@ p {
 
 /* HISTORY */
 
-#compInfo {
+#compInfo 
+{
 	margin-top: 40px;
 	padding-bottom: 30px;
 	width: 960px;
@@ -196,7 +223,8 @@ p {
 
 }
 
-#compBlurb h2 {
+#compBlurb h2 
+{
 	text-align: center;
 	font-size: 40px;
 	margin-top: 0;
@@ -207,13 +235,15 @@ p {
 	line-height: 44px;
 }
 
-#Date {
+#Date 
+{
 	text-align: center;
 	font-family: 'Playfair Display', 'Anton', Helvetica, Arial, sans-serif;
 	font-size: 40px;
 }
 
-#compBlurb p {
+#compBlurb p 
+{
 
 	text-align: center;
 	font-size: 20px;
@@ -222,23 +252,55 @@ p {
 
 /* Others */ 
 
-#serviceInfo h2 {
-	font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
-	color: #333;
-	font-size: 20px;
-	margin-top: 20px;
-	margin-bottom: 10px;
+.row1 
+{
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.row2 
+{
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.row3 
+{
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+}
+
+#flav1 
+{
+	padding-top: 20px;
+	height: 200px;
+	width: 250px;
 
 }
 
-#serviceInfo {
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between; 
-	width: 960px;
+#flav2 
+{
+	padding-top: 20px;
+	height: 200px;
+	width: 250px;
+
+}
+
+#flav3 
+{
+	padding-top: 20px;
+	height: 200px;
+	width: 250px;
+
+}
+
+.BeerNames
+{
+	font-size: 40px;
+	text-align: center;
 }
 
 
@@ -253,13 +315,26 @@ p {
 	text-align: left;
 }
 
-#contactTitle {
+#contactTitle 
+{
 	font-size: 40px;
 	font-family: 'Anton', Arial, sans-serif;
 }
 
-#bottomForm {
+#bottomForm 
+{
 
 	text-align: center;
 
 }
+
+
+/* BEER NOTES */
+
+#PromoBottle
+{
+	display: flex;
+	justify-content: center;
+	padding: 35px;
+}
+
