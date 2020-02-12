@@ -337,3 +337,11 @@ h2 {
 	padding: 35px;
 }
 
+.ProductInfo 
+{
+	font-family: 'Playfair Display', 'Anton', 'Oswald', Arial, sans-serif;
+	font-size: 45px;
+	font-color: #e3c622;
+	text-align: center;
+
+}
