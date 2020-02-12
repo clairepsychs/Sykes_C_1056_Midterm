@@ -28,8 +28,7 @@ p
 {
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	text-shadow: 0 2px 5px rgba(0,0,0,.5);
-	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+
 }
 
 h2 {
@@ -256,21 +255,21 @@ h2 {
 {
 	display: flex;
 	align-items: center;
-	padding-top: 20px;
+	
 }
 
 .row2 
 {
 	display: flex;
 	align-items: center;
-	padding-top: 30px;
+	
 }
 
 .row3 
 {
 	display: flex;
 	align-items: center;
-	padding-top: 30px;
+	
 }
 
 #flav1 
@@ -299,6 +298,7 @@ h2 {
 
 .BeerNames
 {
+	padding-top: 35px;
 	font-size: 40px;
 	text-align: center;
 }
